@@ -11,5 +11,5 @@ source ./SPDS_start.config
 free -mh
 getconf _NPROCESSORS_ONLN
 
-$SPADES --meta -1 $FWD_FQ -2 $REV_FQ -s $SE_FQ -o $OUT_DIR --threads 48 --memory 950
+$SPADES --meta -1 $FWD_FQ -2 $REV_FQ -s $SE_FQ -o $OUT_DIR --threads 48 --memory 960
 
